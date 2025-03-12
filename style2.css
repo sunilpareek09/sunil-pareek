@@ -869,3 +869,16 @@ i {
         margin-top: 15px;
     }
 }
+
+@media (max-width: 720px) {
+  .two-image-div {
+    background-image: url('editor2.png'); 
+    background-size: contain; /* ✅ No Cropping */
+    background-position: center center; /* ✅ Image center rahe */
+    background-repeat: no-repeat; /* ✅ Repeat na ho */
+    width: 100%; 
+    height: 100%;
+    min-height: 280px; /* ✅ Chhoti screen pe bhi dikhe */
+    max-height: 450px; /* ✅ iPhone pe bhi bada dikhe */
+  }
+}
