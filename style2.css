@@ -682,11 +682,17 @@ i {
 .why-to-me {
   height: 20px;
   color: white;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                border-radius: 30px;
+                background-color: #d43939;
+                width:80%;
+                margin: auto;
+                margin-top: 50px;;
+                box-shadow: 0px 0px 40px #ff0404;
   
 }
   .cardss{
