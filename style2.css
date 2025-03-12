@@ -774,3 +774,98 @@ i {
   }
 }
 
+@media (max-width: 992px) and (max-height: 430px) {
+    /* ✅ Body Zoom Fix */
+    body {
+        zoom: 1.1; /* Thoda zoom adjust kiya */
+    }
+
+    /* ✅ Header Fix */
+    .top-name {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    /* ✅ First Section Fix */
+    .first-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .name-cv {
+        width: 90%;
+    }
+
+    #hello {
+        font-size: 28px;
+        margin-left: 0;
+    }
+
+    #my-name {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    #video-editor {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    /* ✅ First Image (Profile Image) Fix */
+    .my-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .first-image {
+        width: 180px; /* Image container ka size adjust */
+        height: 260px; /* Height fix ki */
+        border-radius: 20px; /* Rounded corners */
+        overflow: hidden; /* Extra image cut ho jaye */
+    }
+
+    .real-img img {
+        width: 100%; /* Container ke andar fit ho */
+        height: auto; /* Aspect ratio maintain ho */
+        object-fit: cover; /* Image properly dikhe */
+    }
+
+    /* ✅ Background Image (Two-Image Section) Fix */
+    .two-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .two-image-div {
+        width: 90%; /* Container ki width fix */
+        height: 220px; /* Fixed height */
+        background-size: contain; /* Image stretch na ho */
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+
+    /* ✅ Text Section Fix */
+    .top-info {
+        text-align: center;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    /* ✅ Button Fix */
+    .button-wa {
+        font-size: 12px;
+        padding: 6px 10px;
+        margin-top: 15px;
+    }
+}
