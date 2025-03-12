@@ -882,3 +882,69 @@ i {
     max-height: 450px; /* ✅ iPhone pe bhi bada dikhe */
   }
 }
+
+@media (min-width: 771px) and (max-width: 992px) {
+    /* ✅ Text Fix */
+    #hello {
+        font-size: 3vw; /* Responsive font */
+        margin-left: 0;
+    }
+
+    #my-name {
+        font-size: 2.5vw;
+        margin-left: 0;
+        white-space: normal; /* ✅ Text wrap hoke cut na ho */
+    }
+
+    #video-editor {
+        font-size: 2vw;
+        margin-left: 0;
+    }
+
+    /* ✅ Image Positioning */
+    .first-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .my-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-top: 10px; /* ✅ Image ka position adjust */
+    }
+
+    .first-image {
+        width: 250px;
+        height: 350px;
+        margin-bottom: -50px; /* ✅ Neeche waali image ke saath align */
+    }
+
+    .real-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* ✅ Two-Image Section Fix */
+    .two-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .two-image-div {
+        width: 90%;
+        height: 250px; /* ✅ Neeche waali image ke saath balance */
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
