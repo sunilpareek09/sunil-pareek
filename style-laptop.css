@@ -260,6 +260,7 @@
        
        
          .who-i {
+             display: none;
          position: relative;
          height: 80px;
          justify-content: center;
