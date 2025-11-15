@@ -10,7 +10,7 @@
     {
       "id": 2,
       "title": "Sample Video",
-      "type": "Youtube",
+      "type": "youtube",
       "link": "https://youtu.be/Qbj1yqbLL7Y?si=v6E4teyc4SYTBPmo",
       "description": "Simple And Clean Edit"
     },
@@ -45,35 +45,35 @@
     {
       "id": 7,
       "title": "SHORTS",
-      "type": "shorts",
+      "type": "youtube",
       "link": "https://youtube.com/shorts/oiUkNneKl2A?feature=share",
       "description": " "
     },
     {
       "id": 8,
       "title": "SHORTS",
-      "type": "shorts",
+      "type": "youtube",
       "link": "https://youtube.com/shorts/rwUi63dHONQ?feature=share",
       "description": " "
     },
     {
       "id": 9,
       "title": "SHORTS",
-      "type": "shorts",
+      "type": "youtube",
       "link": "https://youtube.com/shorts/SE6CaRcoyZQ?feature=share",
       "description": " "
     },
     {
       "id": 10,
       "title": "SHORTS",
-      "type": "shorts",
+      "type": "youtube",
       "link": "https://youtube.com/shorts/2IFnc9ps8do?feature=share",
       "description": " "
     },
     {
       "id": 10,
       "title": "SHORTS",
-      "type": "shorts",
+      "type": "youtube",
       "link": "https://youtube.com/shorts/yR1BO968eGg?feature=share",
       "description": " "
     }
