@@ -10,7 +10,7 @@
     {
       "id": 2,
       "title": "Sample Video",
-      "type": "You Tube",
+      "type": "Youtube",
       "link": "https://youtu.be/Qbj1yqbLL7Y?si=v6E4teyc4SYTBPmo",
       "description": "Simple And Clean Edit"
     },
@@ -35,12 +35,47 @@
       "link": "https://youtu.be/CxEzvnb6MlE?si=qira2V_ZX3eLG3-6",
       "description": " "
     },
-      {
+    {
       "id": 6,
       "title": "You Tube Intro",
       "type": "youtube",
       "link": "https://youtu.be/gOA8ScaOzFA",
       "description": ""
-      }
+    },
+    {
+      "id": 7,
+      "title": "SHORTS",
+      "type": "shorts",
+      "link": "https://youtube.com/shorts/oiUkNneKl2A?feature=share",
+      "description": " "
+    },
+    {
+      "id": 8,
+      "title": "SHORTS",
+      "type": "shorts",
+      "link": "https://youtube.com/shorts/rwUi63dHONQ?feature=share",
+      "description": " "
+    },
+    {
+      "id": 9,
+      "title": "SHORTS",
+      "type": "shorts",
+      "link": "https://youtube.com/shorts/SE6CaRcoyZQ?feature=share",
+      "description": " "
+    },
+    {
+      "id": 10,
+      "title": "SHORTS",
+      "type": "shorts",
+      "link": "https://youtube.com/shorts/2IFnc9ps8do?feature=share",
+      "description": " "
+    },
+    {
+      "id": 10,
+      "title": "SHORTS",
+      "type": "shorts",
+      "link": "https://youtube.com/shorts/yR1BO968eGg?feature=share",
+      "description": " "
+    }
   ]
 }
